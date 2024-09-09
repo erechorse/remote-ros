@@ -1,0 +1,19 @@
+{
+    "name": "remote-ros",
+    "image": "tiryoh/ros-desktop-vnc:noetic",
+    "overrideCommand": false,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+
+            ],
+            "settings": {
+
+            }
+        }
+    },
+   "appPort": ["6080:80"],
+    "runArgs": [
+        "--shm-size=512m"
+    ]
+  }
